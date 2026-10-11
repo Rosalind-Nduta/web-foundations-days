@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 4 — Quick Note</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header class="app_header">
+      <h1>Quick note</h1>
+      <button id="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+    </header>
+
+    <label class="label" for="note-text">Your note</label>
+    <textarea id="note-text" rows="8" placeholder="Start typing… (Esc clears the note)"></textarea>
+
+    <p id="char-count" class="count">0 / 200 characters</p>
+    <p id="word-count" class="count">0 words</p>
+
+    <div class="actions">
+      <button id="clear-btn" type="button">Clear</button>
+    </div>
+  </main>
+</body>
+</html>
